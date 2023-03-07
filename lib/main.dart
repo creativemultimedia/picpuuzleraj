@@ -3,12 +3,13 @@ import 'package:flutter/material.dart';
 import 'package:picpuuzleraj/level.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import 'buttondemo.dart';
 import 'level_page.dart';
 
 
 void main()
 {
-  runApp(MaterialApp(home: Home(),));
+  runApp(MaterialApp(home: buttondemo(),));
 }
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
